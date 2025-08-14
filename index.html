@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@Namra-Baig</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <!-- Navbar -->
+       
+
+      <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    
+    <nav class="navbar navbar-expand-md bg-body-tertiary w-100 p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: #00ffff;">@Namra-Baig</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+            <div class="navbar-nav me-5">
+              <a class="nav-link active me-3" aria-current="page" href="#">Home</a>
+              <a class="nav-link  me-3" href="#skills">Skills</a>
+              <a class="nav-link me-3" href="#project">Projects</a>
+              <a class="nav-link me-3" href="#techExpo">TechnicalExposure</a>
+              <a class="nav-link me-3" href="#contact-me">Contact me</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+  </nav>
+
+
+
+  <!-- HOME -->
+      
+  
+
+  <div class="home">
+<div class="profile">
+    <img src="picture.jpg"class="profile-pic">
+</div>
+<div class="intro">
+    <h1 class="text text-st" >I am </h1>
+    <h1 id="intro-text"></h1>
+    <h6 class="text text-end">A passionate Front End Developer</h6>
+    <a href="https://www.linkedin.com/in/namra-mirza-911880297"><i class="fa-brands fa-linkedin text"></i></a>
+    <a href="https://github.com/Namrabaig12"><i class="fa-brands fa-square-github text" ></i></a>
+    <a href="https://www.geeksforgeeks.org/user/mirzanamdox/"><i><img src="download (2).jpg" class="img-icon"></i></a>
+    <br>
+    <a href="https://drive.google.com/file/d/1DcJPdoToK5wB2mt7Fj0CUXjKmDiNvWNN/view?usp=drive_link" class="btn btn-dark mt-5 resume-btn btn-lg">My Resume</a>
+</div>
+</div>
+
+
+
+
+<!-- Skills -->
+
+
+<section id="skills">
+    <h1>My Skills</h1>
+  
+    <div class="skill">
+      <div class="skill-info">
+        <span>HTML</span>
+        <span>90%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress" style="width: 90%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+          <span>CSS</span>
+          <span>80%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" style="width: 90%;"></div>
+        </div>
+      </div>
+  
+    <div class="skill">
+      <div class="skill-info">
+        <span>JavaScript</span>
+        <span>70%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress" style="width: 80%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+          <span>Communication</span>
+          <span>80%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" style="width: 80%;"></div>
+        </div>
+      </div>
+  
+  </section>
+  
+
+  <!-- Project -->
+
+
+  <div class="project text-center" id="project">
+    <h1>Projects</h1>
+    <div class="project-list ">
+         
+        <div class="card " >
+            <img src="download (3).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Website</h5>
+              <br>
+              <a href="#" class="btn btn-dark resume-btn"   onclick="openModal('Portfolio Website',event)">Technology Stack</a>
+              <a href="#" class="btn btn-dark resume-btn">My Project</a>
+            </div>
+          </div>
+        
+
+        
+          <div class="card" >
+            <img src="download (3).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CodSoft Internship</h5>
+              <br>
+              <a href="#" class="btn btn-dark resume-btn" onclick="openModal('CodSoft Internship',event)">Technology Stack</a>
+              <a href="https://github.com/Suhani-lodhi/CodSoft-Internship" class="btn btn-dark resume-btn">My Project</a>
+            </div>
+          </div>
+       
+    </div>
+</div>
+
+
+<div id="techModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5);">
+  <div class="tech-stack">
+    <h2 id="projectName">Technology Stack</h2>
+    <div id="techBars"></div>
+
+    <button onclick="closeModal()" style="margin-top:20px;  padding:10px 20px; border:none; border-radius:5px;" class="resume-btn">Close</button>
+  </div>
+</div>
+
+
+
+<!-- TechnicalExposure -->
+
+
+<section class="techExpo" id="techExpo">
+    <h1>Technical Exposure</h1>
+    <div class="technical">
+        
+        <div class="tech-left">
+            <div class="left-div">
+               <div class="techleft-card">
+                <h5 class="tech-heading">NEPTEL Java Cirtification</h5>
+                <p>completed an 12-week NPTEL Java course gaining hands-on experience in object-oriented design, 
+                    core Java concepts, and application development using industry-standard practices.</p>
+               </div>
+            </div>
+           
+
+            <div class="left-div">
+                
+                <div class="techleft-card">
+                    <h5 class="tech-heading">Ping Pong game Workshop</h5>
+                    <p>Participated in learning how to build Ping Pong game Workshop organized by RICR Bhopal
+                         gaining hands-on experience and learning practical implementation of game development.</p>
+                   </div>
+            </div>
+
+        </div>
+        <div class="tech-right">
+            <div class="right-div">
+
+                <div class="techright-card">
+                    <h5 class="tech-heading">CodSoft Virtual Internship</h5>
+                    <p>Successfully completed a 1-month Full Stack Development internship at CodSoft, gaining hands-on
+                         experience in frontend and backend technologies.</p>
+                   </div>
+
+            </div>
+            
+
+        <div class="right-div">
+
+                <div class="techright-card">
+                    <h5 class="tech-heading">Blockchain Technology Workshop</h5>
+                    <p>Attended Blockchain Technology Workshop by Geeks for Gurukul, learning blockchain and smart contract basics.</p>
+                   </div>
+
+        </div>
+
+            
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Contact -->
+
+
+
+<section class="contact-me" id="contact-me">
+    <h1>Connect with Me</h1>
+    <div class="contact">
+        <form method="post" action="/submit">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="data[name]" placeholder="Full name">
+              </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="data[email]" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" name="data[message]" placeholder="Enter your message"></textarea>
+              </div>
+
+              <div class="contact-icon mt-3">
+            
+                <a href="tel:+918839104411"><i class="fa-solid fa-phone"></i></a>
+                <a href="https://wa.me/8839104411" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+                <a href="mailto:mirzanamra2050@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    
+            </div>
+
+              <button class="btn btn-dark mt-5 resume-btn">Submit</button>
+        </form>
+
+        
+    </div>
+</section>
+
+
+
+<!-- Footer -->
+
+
+
+<footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Namra. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/Namrabaig12" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/namra-mirza-911880297" target="_blank">LinkedIn</a>
+        <a href="mailto:mirzanamra20@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+  
+
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
